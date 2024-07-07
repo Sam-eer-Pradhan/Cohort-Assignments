@@ -44,5 +44,6 @@ class Calculator {
     return this.result;
 
   }
+}
 
 module.exports = Calculator;
