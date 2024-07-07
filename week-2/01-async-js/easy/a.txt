@@ -1,1 +1,2 @@
-Hiii, i am a file to be read !!!
+Hii, This is some content to be read!
+This is some content to be written to a file!
