@@ -37,7 +37,7 @@ class Calculator {
     return this.result;
   }
   calculate(expression) {
-    this.result = eval(expression.replace(/\s+/g, " "))
+    this.result = eval(expression.replace(/\s+/g, " "));
     if (this.result === Infinity) {
       throw new Error("Infinity")
     }
