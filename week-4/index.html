@@ -8,15 +8,17 @@
     let oldTodoState = [];
 
     function addTodoToDom() {
-      
+
     }
 
     function removeTodoFromDom(todo) {
-      
+      const child = document.getElementById(todo.id);
+      child.parent.removeChild(child);
+
     }
 
     function updateTodoInDom(oldTodo, newTodo) {
-        
+
     }
 
     function updateState(newTodos) {
@@ -25,6 +27,7 @@
       // 1. added
       // 2. deleted
       // 3. updated
+
       const added = [];
       const deleted = [];
       const updated = [];
