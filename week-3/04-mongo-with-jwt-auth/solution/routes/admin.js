@@ -1,7 +1,7 @@
 const { Router } = require("express");
 const adminMiddleware = require("../middleware/admin");
-const { Admin, User, Course } = require("../db");
-const {JWT_SECRET} = require("../config");
+const { Admin, User, Course } = require("../db/index");
+const { JWT_SECRET } = require("../config");
 const router = Router();
 const jwt = require("jsonwebtoken");
 
